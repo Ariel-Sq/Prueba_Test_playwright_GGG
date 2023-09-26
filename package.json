@@ -1,0 +1,20 @@
+{
+  "name": "playwright-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-ct": "playwright test -c playwright-ct.config.js"
+  },
+  "keywords": [],
+  "author": "ArielSq",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/experimental-ct-solid": "^1.38.1",
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.6.3"
+  },
+  "dependencies": {
+    "playwright": "^1.38.1"
+  }
+}
